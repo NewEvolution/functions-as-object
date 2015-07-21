@@ -9,6 +9,7 @@ var diviFunc = function(numerator, denominator) {
 var mathMaster = function(arg1, arg2, mathFunc) {
   return mathFunc(arg1, arg2);
 }
-
-console.log(mathMaster(12, 2, multiFunc));
-console.log(mathMaster(12, 2, diviFunc));
+var x = mathMaster(12, 2, multiFunc);
+var y = mathMaster(12, 2, diviFunc);
+console.log(x);
+console.log(y);
