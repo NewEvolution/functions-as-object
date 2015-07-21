@@ -1,13 +1,14 @@
-var multiplier = function(mult1, mult2) {
+var multiFunc = function(mult1, mult2) {
   return mult1 * mult2;
 }
 
-var divider = function(numerator, denominator) {
+var diviFunc = function(numerator, denominator) {
   return numerator / denominator;
 }
 
-var mathMaster = function(num1, num2, mathFunction) {
-  mathFunction(num1, num2);
+var mathMaster = function(arg1, arg2, mathFunc) {
+  return mathFunc(arg1, arg2);
 }
 
-console.log(mathMaster(12, 2, multiplier));
+console.log(mathMaster(12, 2, multiFunc));
+console.log(mathMaster(12, 2, diviFunc));
