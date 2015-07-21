@@ -12,5 +12,6 @@ var mathMaster = function(arg1, arg2, mathFunc) {
 
 var x = mathMaster(12, 2, multiFunc);
 var y = mathMaster(12, 2, diviFunc);
+
 console.log(x);
 console.log(y);
