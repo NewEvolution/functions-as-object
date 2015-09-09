@@ -1,4 +1,4 @@
-# Functions as Object Assignment
+#Exercise:  Functions as Object
 
 1.  Create a function that multiplies two numbers passed in as argument. Return the product.
 
